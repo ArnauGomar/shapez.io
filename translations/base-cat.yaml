@@ -21,7 +21,7 @@
 
 steamPage:
     # This is the short text appearing on the steam page
-    shortText: shapez.io is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.
+    shortText: shapez.io és un joc que té com a objectiu construir i automatitzar fàbriques per tal de produir figures cada cop més complexes en un mapa infinit.
 
     # This is the long description for the steam page - It is contained here so you can help to translate it, and I will regulary update the store page.
     # NOTICE:
@@ -30,45 +30,44 @@ steamPage:
     longText: >-
         [img]{STEAM_APP_IMAGE}/extras/store_page_gif.gif[/img]
 
-        shapez.io is a game about building factories to automate the creation and combination of shapes. Deliver the requested, increasingly complex shapes to progress within the game and unlock upgrades to speed up your factory.
+        shapez.io és un joc que té com a objectiu construir i automatitzar fàbriques per tal de produir i combinar figures. Al entregar-les, es progressa en el joc desbloquejant millores per les línies de producció.
+        
+        En augmentar la demanda serà necessari redissenyar les línies de producció per tal de saciar les demandes - Sense oblidar-se dels recursos bàsics, serà necessari expandir-se en el [b]mapa infinit[/b]!
+        
+        Ja que les figures simples poden ser avorrides serà necessari mesclar colors i pintar-les - Combina vermell, verd i blau per produir diferents colors i així pintar les figures per assolir el nivell de demanda adequat.
+        
+        El joc compta amb 18 nivells (Que et mantindran ocupat durant hores!) però estic afegint constantment nou contingut - Tinc moltes coses planejades!
 
-        Since the demand raises you will have to scale up your factory to fit the needs - Don't forget about resources though, you will have to expand in the [b]infinite map[/b]!
 
-        Since shapes can get boring soon you need to mix colors and paint your shapes with it - Combine red, green and blue color resources to produce different colors and paint shapes with it to satisfy the demand.
-
-        This game features 18 levels (Which should keep you busy for hours already!) but I'm constantly adding new content - There is a lot planned!
-
-
-        [b]Standalone Advantages[/b]
-
-        [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
-        [/list]
-
-        [b]Planned features & Community suggestions[/b]
-
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        [b]Avantatges del joc complet[/b]
 
         [list]
-            [*] Wires!
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] And much more!
+            [*] Balises, punts de referència en el mapa
+            [*] Guardar partides de forma il·limitada
+            [*] Mode fosc/nocturn
+            [*] Més opcions
+            [*] Em permet seguir desenvolupant shapez.io ❤️
+            [*] Més característiques en el futur!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        [b]Característiques planejades i suggerències de la comunitat[/b]
+        
+        Aquest joc es de codi obert - Qualsevol pot contribuir! A més, tinc [b]molt present[/b] a la comunitat! Intento/e llegir tots els suggeriments i proporcionar tot el feedback que m'és possible.
+        [list]
+            [*] Cables!
+            [*] Mode història on els edificis tenen un cost en figures
+            [*] Més nivells i edificis (exclusiu de la versió completa)
+            [*] Mapes diferents i potser obstacles dins d'aquest
+            [*] Configurar la generació del mapa (número i mida dels recursos, la seed i més)
+            [*] Més tipus de figures
+            [*] Millorar el rendiment (Tot i que el joc ja funciona molt bé!)
+            [*] I molt més!
+        [/list]
+        
+        Assegurat de revisar el taulell de Trello per veure el full de ruta! https://trello.com/b/ISQncpJP/shapezio
 
 global:
-    loading: Loading
+    loading: Carregant
     error: Error
 
     # How big numbers are rendered, e.g. "10,000"
@@ -86,21 +85,21 @@ global:
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: fa un segon
+        xSecondsAgo: fa <x> segons
+        oneMinuteAgo: fa un minut
+        xMinutesAgo: fa <x> minuts
+        oneHourAgo: fa una hora
+        xHoursAgo: fa <x> hores
+        oneDayAgo: fa un dia
+        xDaysAgo: fa <x> dies
 
         # Short formats for times, e.g. '5h 23m'
         secondsShort: <seconds>s
         minutesAndSecondsShort: <minutes>m <seconds>s
         hoursAndMinutesShort: <hours>h <minutes>m
 
-        xMinutes: <x> minutes
+        xMinutes: <x> minuts
 
     keys:
         tab: TAB
@@ -108,115 +107,116 @@ global:
         alt: ALT
         escape: ESC
         shift: SHIFT
-        space: SPACE
+        space: ESPAI
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
-    title: Demo Version
+    title: Demo - Versió de prova
     intro: >-
-        Get the standalone to unlock all features!
+        Aconsegueix el joc complet per obtenir totes les característiques!
 
 mainMenu:
-    play: Play
-    continue: Continue
-    newGame: New Game
-    changelog: Changelog
+    play: Jugar
+    continue: Continuar
+    newGame: Nou joc
+    changelog: Historial de canvis
     subreddit: Reddit
-    importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
-    madeBy: Made by <author-link>
+    importSavegame: Importar
+    openSourceHint: Aquest joc es de codi obert!
+    discordLink: Servidor Discord oficial
+    helpTranslate: Ajuda a traduir-lo!
+    madeBy: Creat per <author-link>
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+    
+        Disculpa, però el joc funcionarà lent al teu navegador! Aconsegueix el joc complet o descarregat chrome per una millor experiència.
 
-    savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevel: Nivell <x>
+    savegameLevelUnknown: Nivell desconegut
 
     contests:
         contest_01_03062020:
-            title: "Contest #01"
-            desc: Win <strong>$25</strong> for the coolest base!
+            title: "Concurs #01"
+            desc: Guanya <strong>$25</strong> per la base més impresionant!
             longDesc: >-
-                To give something back to you, I thought it would be cool to make weekly contests!
+                Per tal de mantenir el feedback he pensat que molaria fer concursos setmanals!
                 <br><br>
-                <strong>This weeks topic:</strong> Build the coolest base!
+                <strong>El tema d'aquesta setmana:</strong> Construeix la base més impresionant!
                 <br><br>
-                Here's the deal:<br>
+                Aquest es el procés:<br>
                 <ul class="bucketList">
-                    <li>Submit a screenshot of your base to <strong>contest@shapez.io</strong></li>
-                    <li>Bonus points if you share it on social media!</li>
-                    <li>I will choose 5 screenshots and propose it to the <strong>discord</strong> community to vote.</li>
-                    <li>The winner gets <strong>$25</strong> (Paypal, Amazon Gift Card, whatever you prefer)</li>
+                    <li>Envia una captura de pantalla de la teva base <strong>contest@shapez.io</strong></li>
+                    <li>Punts extra si ho comparteixes en xarxes socials!</li>
+                    <li>Seleccionare aa 5 captures i les proposaré a la comunitat de <strong>discord</strong> per que votin/en.</li>
+                    <li>El premi és <strong>$25</strong> (Paypal, Amazon Gift Card, whatever you prefer)</li>
                     <li>Deadline: 07.06.2020 12:00 AM CEST</li>
                 </ul>
                 <br>
-                I'm looking forward to seeing your awesome creations!
+                Estic esperant per les vostres increïbles creacions!
 
-        showInfo: View
-        contestOver: This contest has ended - Join the discord to get noticed about new contests!
+        showInfo: Veure
+        contestOver: Aquest concurs ha conclòs- Entra a discord per assabentar-te de nous concursos!
 
 dialogs:
     buttons:
         ok: OK
-        delete: Delete
-        cancel: Cancel
-        later: Later
-        restart: Restart
-        reset: Reset
-        getStandalone: Get Standalone
-        deleteGame: I know what I do
-        viewUpdate: View Update
-        showUpgrades: Show Upgrades
-        showKeybindings: Show Keybindings
+        delete: Eliminar
+        cancel: Cancel·lar
+        later: Més tard
+        restart: Tornar a començar
+        reset: Reiniciar
+        getStandalone: Obtenir versió completa
+        deleteGame: Se el que em faig
+        viewUpdate: Veure actualitzacions
+        showUpgrades: Mostrar millores
+        showKeybindings: Mostrar dreceres de teclat 
 
     importSavegameError:
-        title: Import Error
+        title: Error a l'importar
         text: >-
             Failed to import your savegame:
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: Importar
         text: >-
-            Your savegame has been successfully imported.
+            La partida ha sigut importada amb èxit.
 
     gameLoadFailure:
-        title: Game is broken
+        title: No es pot càrregar la partida guardada
         text: >-
             Failed to load your savegame:
 
     confirmSavegameDelete:
-        title: Confirm deletion
+        title: Eliminar
         text: >-
-            Are you sure you want to delete the game?
+            Estàs segur que vols eliminar la partida guardada?
 
     savegameDeletionError:
-        title: Failed to delete
+        title: Error al eliminar
         text: >-
             Failed to delete the savegame:
 
     restartRequired:
-        title: Restart required
+        title: Reiniciar
         text: >-
-            You need to restart the game to apply the settings.
+            És necessari reiniciar el joc per aplicar els canvis.
 
     editKeybinding:
-        title: Change Keybinding
-        desc: Press the key or mouse button you want to assign, or escape to cancel.
+        title: Cambiar dreceres de teclat
+        desc: Pressiona la tecla o botó del ratolí que vols designar o ESC per cancel·lar.
 
     resetKeybindingsConfirmation:
-        title: Reset keybindings
-        desc: This will reset all keybindings to their default values. Please confirm.
+        title: Reiniciar dreceres de teclat
+        desc: Això reiniciarà tots els canvis realitzats, n'estàs segur?
 
     keybindingsResetOk:
-        title: Keybindings reset
-        desc: The keybindings have been reset to their respective defaults!
+        title: Cambiar dreceres de teclat
+        desc: Les dreceres han tornat en el seu estat predeterminat!
 
     featureRestriction:
-        title: Demo Version
-        desc: You tried to access a feature (<feature>) which is not available in the demo. Consider to get the standalone for the full experience!
+        title: Demo - Versió de prova
+        desc: Has intentat accedir a una (<feature>) which is not available in the demo. Consider to get the standalone for the full experience!
 
     oneSavegameLimit:
         title: Limited savegames
